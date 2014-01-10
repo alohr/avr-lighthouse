@@ -1,4 +1,5 @@
 avr-lighthouse
 ==============
 
-photo resistor controlled LED blinker
+photoresistor controlled LED blinker
+
