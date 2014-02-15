@@ -4,7 +4,7 @@ PROGRAMMER = -c avrisp2 -P usb
 
 OBJECTS    = main.o
 
-# internal oscillator, 1 MHz
+# internal oscillator, 1 MHz, brown-out detection disabled
 FUSES 	   = -U lfuse:w:0x62:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
 # Tune the lines below only if you know what you are doing:
